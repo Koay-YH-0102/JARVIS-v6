@@ -1,0 +1,66 @@
+{
+  "system": {
+    "name": "J.A.R.V.I.S.",
+    "version": "6.1",
+    "mode": "hybrid"
+  },
+  "biometric": {
+    "enabled": true,
+    "face_recognition": true,
+    "fingerprint": true
+  },
+  "voice": {
+    "enabled": true,
+    "default_language": "en-US",
+    "hotword": "jarvis",
+    "tts_gender": "female",
+    "tts_rate": 150
+  },
+  "ai": {
+    "enabled": true,
+    "primary": "",
+    "groq_api_key": "",
+    "gemini_api_key": "",
+    "personality": "jarvis",
+    "groq_model": "",
+    "gemini_model": "",
+    "mistral_api_key": "",
+    "mistral_model": "",
+    "nvidia_api_key": "",
+    "nvidia_model": "",
+    "openrouter_keys": [
+      ""
+    ],
+    "openrouter_model": "",
+    "freellmapi_key": "",
+    "freellmapi_url": "http://127.0.0.1:31415/v1",
+    "freellmapi_model": "",
+    "ollama_url": "http://localhost:11434",
+    "ollama_model": ""
+  },
+  "phone": {
+    "enabled": true,
+    "device_id": null
+  },
+  "web_interface": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 5000
+  },
+  "smart": {
+    "enabled": true,
+    "emotion_detection": true,
+    "proactive": true
+  },
+  "auto_start": {
+    "enabled": false,
+    "services": [
+      "web_interface",
+      "hotword_detection"
+    ]
+  },
+  "gmail": {
+    "enabled": true,
+    "credentials_path": "gmail_data/credentials.json"
+  }
+}
