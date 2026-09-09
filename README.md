@@ -263,4 +263,4 @@ All dependencies are open-source (MIT, BSD, Apache 2.0).
 
 ---
 
-*J.A.R.V.I.S. v6.1 — Your AI assistant. Your machine. Your rules.*
+*J.A.R.V.I.S. v6 — Your AI assistant. Your machine. Your rules.*
